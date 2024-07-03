@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="m-0 p-0 box-border h-screen flex items-center content-center bg-slate-200 " >
+    <div class="container relative max-w-[300px] w-full rounded-xl py-2.5 px-5 bg-slate-100 shadow-[0_5px_10px-rgba(0,0,0,0.05)] ">
+      <input type="text" class="display h-[80px] w-[100%] mb-2.5 text-2xl outline-none border-0 text-right text-black pointer-events-none ">
+      <div class="buttons grid gap-2.5 grid-cols-4">
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="AC">AC</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="DEL">DEL</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="%">%</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="/">/</button>
+
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="7">7</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="8">8</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="9">9</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="*">*</button>
+
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="4">4</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="5">5</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="6">6</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="-">-</button>
+
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="1">1</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="2">2</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="3">3</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="+">+</button>
+
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="0">0</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value="00">00</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90"  data-value=".">.</button>
+        <button class="p-2.5 rounded-md border-none text-xl cursor-pointer bg-gray-200 active:scale-90 text-sky-400"  data-value="=">=</button>
+        
+      </div>  
+    </div>
+    
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
